@@ -1,13 +1,9 @@
-import CustomerHomeScreen from "./home";
+import Home from "./CustomerHomeScreen"
+import Restaurant from "./Restaurant"
+import OrderDelivery from "./OrderDelivery"
 
-export const CustomerTabNavigatorConfig = {
-  initialRouteName: "CustomerHomeScreen",
-  // header: null,
-  // headerMode: "none",
-};
-
-export const CustomerRouteConfigs = {
-  CustomerHomeScreen: {
-    screen: CustomerHomeScreen,
-  },
-};
+export {
+  Home,
+  Restaurant,
+  OrderDelivery,
+}
